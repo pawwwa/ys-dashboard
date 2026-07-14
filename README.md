@@ -2,6 +2,7 @@
 
 Full-stack widget dashboard: **ASP.NET Core** backend + **React 18/19 + TypeScript** frontend.
 
+Available here - https://ys-dashboard-theta.vercel.app/
 
 ## Project structure
 
