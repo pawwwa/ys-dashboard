@@ -20,6 +20,8 @@ public class CreateWidgetHandler(AppDbContext context)
             Id = Guid.NewGuid(),
             Type = request.Type,
             Position = position,
+            Columns = request.Columns,
+            Rows = request.Rows,
             Text = CreateText(request),
             Points = CreatePoints(request.Type)
         };

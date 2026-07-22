@@ -14,6 +14,8 @@ public class Widget
     public Guid Id { get; set; }
     public required WidgetType Type { get; init; }
     public required int Position { get; set; }
+    public required int Columns { get; set; }
+    public required int Rows { get; set; }
 
     public string? Text { get; set; }
     public List<ChartPoint>? Points { get; set; }
